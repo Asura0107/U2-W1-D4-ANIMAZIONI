@@ -15,23 +15,30 @@ body {
 
   justify-content: space-evenly;
   flex-wrap: wrap;
-  column-gap: 80px;
-  row-gap: 60px;
+  column-gap: 10px;
+  row-gap: 40px;
 }
 .postit {
-  width: 250px;
-  height: 200px;
+  font-family: "Indie Flower", sans-serif;
+  width: 200px;
+  height: 150px;
   position: relative;
   transition: transform 1s;
   box-shadow: 3px 4px 11px 0px black, inset 0px -30px 30px -10px #808080bd;
 }
 .postit:hover {
   transform: scale(1.25);
+  z-index: 1;
 }
-.postit p {
+.intern {
   position: absolute;
-  top: 8%;
-  padding: 45px;
+  top: 50px;
+  left: 50px;
+  text-align: center;
+}
+.intern h2 {
+  font-size: 30px;
+  font-weight: 600;
 }
 .page {
   background-color: #f8f8c6;
